@@ -18,7 +18,7 @@ def dfs(u):
     print(u)
     for v in tree[u]:
         dfs(v)
-
+    
 dfs(1)
 print()
 print(dict(tree))
